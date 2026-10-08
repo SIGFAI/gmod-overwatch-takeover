@@ -1,0 +1,240 @@
+{
+  "id": "sigf/gmod-overwatch-takeover",
+  "version": "1.0.0",
+  "name": "Overwatch Takeover",
+  "tagline": "Bring Overwatch into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "gmod",
+      "role": "host",
+      "engine": "Garry's Mod (Source, 64-bit branch) + Lua addon, Sandbox listen server",
+      "apps": {
+        "steam": "4000"
+      }
+    },
+    {
+      "game": "overwatch",
+      "role": "guest",
+      "label": "Overwatch",
+      "canonical": false
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "gmod",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "gmod-overwatch-takeover-addon-kit.zip",
+          "dst": "{game}/garrysmod/addons/sigf_overwatch_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "lua/autorun/sigf_kit.lua",
+              "sha256": "997f9cd687a37c26ae0224699ee0b189367e9ab2b232acca7c8c9829459882f7"
+            },
+            {
+              "path": "lua/sigf_kit/cl_bricks.lua",
+              "sha256": "a78651503449000a81bf348477ec9a5867452e42f1848021632798ef6c63918e"
+            },
+            {
+              "path": "lua/sigf_kit/cl_stage.lua",
+              "sha256": "b4a53055318568a93674697ad487dbd747c013c0ce20cd320f67cc6248f71f8c"
+            },
+            {
+              "path": "lua/sigf_kit/sh_bricks.lua",
+              "sha256": "29f773258c2c750a05ec6a8a72abfc58e9d59cff2fddc456750ebbcbc05d42a3"
+            },
+            {
+              "path": "lua/sigf_kit/sh_stage.lua",
+              "sha256": "04fac2c59696deddef5bb7ec8fe005f3233a09b4df5d8743a7037fdfdf701b75"
+            },
+            {
+              "path": "lua/sigf_kit/sv_bricks.lua",
+              "sha256": "ce18b8dfe3d4338580f872013bae90218b7fd023b58699bd8ef770fbf61e0c49"
+            },
+            {
+              "path": "lua/sigf_kit/sv_stage.lua",
+              "sha256": "42998cfb11d034a692e2cc58a476d0fd90717419a67c74af554e07e568e9bda0"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/gmod-overwatch-takeover/releases/download/v1.0.0/gmod-overwatch-takeover-addon-kit.zip",
+          "sha256": "de090fbbc1ae7562f642d8c6a97e17bcb6619407cf4b246c8dbc071b3e5dfae6",
+          "size": 18083
+        },
+        {
+          "src": "gmod-overwatch-takeover.zip",
+          "dst": "{game}/garrysmod/addons/sigf_overwatch_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "lua/autorun/sigf_kit.lua",
+              "sha256": "997f9cd687a37c26ae0224699ee0b189367e9ab2b232acca7c8c9829459882f7"
+            },
+            {
+              "path": "lua/sigf_kit/cl_bricks.lua",
+              "sha256": "a78651503449000a81bf348477ec9a5867452e42f1848021632798ef6c63918e"
+            },
+            {
+              "path": "lua/sigf_kit/cl_stage.lua",
+              "sha256": "b4a53055318568a93674697ad487dbd747c013c0ce20cd320f67cc6248f71f8c"
+            },
+            {
+              "path": "lua/sigf_kit/sh_bricks.lua",
+              "sha256": "29f773258c2c750a05ec6a8a72abfc58e9d59cff2fddc456750ebbcbc05d42a3"
+            },
+            {
+              "path": "lua/sigf_kit/sh_stage.lua",
+              "sha256": "04fac2c59696deddef5bb7ec8fe005f3233a09b4df5d8743a7037fdfdf701b75"
+            },
+            {
+              "path": "lua/sigf_kit/sv_bricks.lua",
+              "sha256": "ce18b8dfe3d4338580f872013bae90218b7fd023b58699bd8ef770fbf61e0c49"
+            },
+            {
+              "path": "lua/sigf_kit/sv_stage.lua",
+              "sha256": "42998cfb11d034a692e2cc58a476d0fd90717419a67c74af554e07e568e9bda0"
+            },
+            {
+              "path": "lua/sigf_mod/cl.lua",
+              "sha256": "9480820861a2e546b037ebc68f589a1348fd0e0b0e2251bac0d445e51f9f8432"
+            },
+            {
+              "path": "lua/sigf_mod/demo.lua",
+              "sha256": "0bceeb574ecac2c8ffc788cb18e3b32cdca729355dd61268eb50b08beef0f6cf"
+            },
+            {
+              "path": "lua/sigf_mod/sv.lua",
+              "sha256": "a6436846f5375963aae466bb6b2b52e9edadc50c57b429e8ea6fe9eeb0a12364"
+            },
+            {
+              "path": "materials/sigf/omnic.vmt",
+              "sha256": "fbd70c54b3f94779e1b940bd5a6db032bf5fd170f040a95442b32681634ff08d"
+            },
+            {
+              "path": "materials/sigf/omnic.vtf",
+              "sha256": "9ffe929dea0a34b518684cba766dae9ef961c537ec57d31859a5cff47ac4e60d"
+            },
+            {
+              "path": "materials/sigf/pulse.vmt",
+              "sha256": "2209306d038277a4d80b8c13e658313c1aad870866b681ceba6edda32434f72e"
+            },
+            {
+              "path": "materials/sigf/pulse.vtf",
+              "sha256": "0338b87d888917c0fde788b1c0cf4c1a19cf5eff2cd8c10d49782d344e49739d"
+            },
+            {
+              "path": "materials/sigf/reaper.vmt",
+              "sha256": "7e9bcc9f72a967a1fb1888614ec197ba5537f7e7166004f69a49b816ef74d874"
+            },
+            {
+              "path": "materials/sigf/reaper.vtf",
+              "sha256": "1f4ab7884f4aafe33d29ae54671e69e8f5e2649e9d0f1f399be111da92647379"
+            },
+            {
+              "path": "materials/sigf/soldier.vmt",
+              "sha256": "b7dd03cdbf22a26100c6cea9050ba3658a893a994eec03b971eb494218ec8095"
+            },
+            {
+              "path": "materials/sigf/soldier.vtf",
+              "sha256": "3eb2b91bb622e689c69462e59f082213e5d28e124559baaa1b06411276b65032"
+            },
+            {
+              "path": "materials/sigf/tracer.vmt",
+              "sha256": "b8fe02ebd6390319227a5225aab850b53a464f28e80b00182f41c56b152639d4"
+            },
+            {
+              "path": "materials/sigf/tracer.vtf",
+              "sha256": "1419f3087b463c5673702a89657738c5beb58b4cc613bb2f32cb2cc7e704ecdf"
+            },
+            {
+              "path": "materials/sigf/ultico.vmt",
+              "sha256": "e3c090f32c39b3455ff2676871801557e7fb18e6d5a1bfc04967e24af8d10c0f"
+            },
+            {
+              "path": "materials/sigf/ultico.vtf",
+              "sha256": "361c75128bb44c00991665fe5c7080001d35cf9472c71edca1bb468ce0bb1717"
+            },
+            {
+              "path": "materials/sigf/wings.vmt",
+              "sha256": "19eebe52853623070f039cb1db382d150431663bce48173c48277edc1a2ec46d"
+            },
+            {
+              "path": "materials/sigf/wings.vtf",
+              "sha256": "20d0c7952df734d62ebd7e13a39b779e21f388ec3891f2ce28b391403b1382cd"
+            },
+            {
+              "path": "sound/sigf/blink.wav",
+              "sha256": "d4f3cdcf7accb8515fd9aacf03cfd652c28116c1f1863c39725b5c28ee55d039"
+            },
+            {
+              "path": "sound/sigf/recall.wav",
+              "sha256": "bb92167c45988ded1cf6f959030ce17130d32122531fb3701d0ff0182bc39323"
+            },
+            {
+              "path": "sound/sigf/revive.wav",
+              "sha256": "4edffff175a7f1fd88ca17acb3287605f2a4356851c8babd80f80e483f2455ca"
+            },
+            {
+              "path": "sound/sigf/robodie.wav",
+              "sha256": "f5cf205731f40a7b43653cf53a61a0c1c0ab1e5321f6c288e2ba28063851d7ca"
+            },
+            {
+              "path": "sound/sigf/ult.wav",
+              "sha256": "9c636b5a121e1011b6517e96da052083808670cd5ab9eb05ab56856e9a5e5f2d"
+            },
+            {
+              "path": "sound/sigf/victory.wav",
+              "sha256": "5b005449efd80ed7be7e92de7504c11e4a6849e2d9579e94684def90a0413d6f"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/gmod-overwatch-takeover/releases/download/v1.0.0/gmod-overwatch-takeover.zip",
+          "sha256": "701be1e669d7d5165ecbc3902e2f582fca7a968b5a4459126dede78f8ff27260",
+          "size": 3555125
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "gmod",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "gmod-overwatch-takeover-addon-kit.zip",
+      "url": "https://github.com/SIGFAI/gmod-overwatch-takeover/releases/download/v1.0.0/gmod-overwatch-takeover-addon-kit.zip",
+      "sha256": "de090fbbc1ae7562f642d8c6a97e17bcb6619407cf4b246c8dbc071b3e5dfae6",
+      "size": 18083
+    },
+    {
+      "name": "gmod-overwatch-takeover.zip",
+      "url": "https://github.com/SIGFAI/gmod-overwatch-takeover/releases/download/v1.0.0/gmod-overwatch-takeover.zip",
+      "sha256": "701be1e669d7d5165ecbc3902e2f582fca7a968b5a4459126dede78f8ff27260",
+      "size": 3555125
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/gmod-overwatch-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-08-65b612a5.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "gmod",
+    "status": "draft"
+  },
+  "built_at": "2026-10-08T02:47:03.667Z",
+  "notes": [
+    "Unzip the mod folder into a new folder inside garrysmod/addons, start Sandbox on any map, and the robots and heroes appear. Press Q when your ultimate is READY."
+  ]
+}
