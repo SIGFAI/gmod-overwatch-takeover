@@ -1,0 +1,1 @@
+Unzip the mod folder into a new folder inside garrysmod/addons, start Sandbox on any map, and the robots and heroes appear. Press Q when your ultimate is READY.

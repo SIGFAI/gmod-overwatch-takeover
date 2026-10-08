@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "sigf/omnic"
+	"$model" "1"
+	"$alphatest" "1"
+}

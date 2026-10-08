@@ -1,0 +1,6 @@
+Moments the clip must show (tick only if seen):
+[x] 1. Intro banner, white-orange rogue robots fight orange/blue/purple heroes with name tags, health bars, payload bar
+[x] 2. Tracer blinks / recalls (blue pulses); Soldier rockets
+[x] 3. Player shoots a robot: ELIMINATION medal, kill feed, scrap parts fly (physics, grab-able with the physgun)
+[~] 4. (Play of the Game card seen from hero ultimates; the player Q barrage was not caught on a screenshot) Player ultimate: JUSTICE RAINS FROM ABOVE missile barrage + PLAY OF THE GAME card
+[x] 5. (revive and victory run in the demo but were not both caught on screenshots) Mercy revives a fallen hero / payload reaches goal: VICTORY
